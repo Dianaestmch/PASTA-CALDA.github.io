@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('tu-imagen-de-fondo.jpg') center/cover no-repeat fixed;
+      height: 150vh; /* Ajusta la altura para simular el scroll */
+    }
 
+    header {
+      background-color: rgba(255, 255, 255, 0.8); /* Fondo del encabezado con opacidad */
+      padding: 20px;
+      position: fixed;
+      width: 100%;
+      transition: background-color 0.3s ease-in-out;
+      z-index: 1000;
+    }
+
+    header.scrolled {
+      background-color: rgba(255, 255, 255, 1); /* Fondo del encabezado sin opacidad al hacer scroll */
+    }
+
+    h1 {
+      margin: 0;
+      color: #333;
+    }
+
+    /* Estilos adicionales para el contenido de la página */
+    .content {
+      padding: 40px;
+      color: #fff;
+      text-align: center;
+      font-size: 24px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nombre de tu sitio</h1>
+  </header>
+
+  <div class="content">
+    <!-- Contenido de tu página -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+  </div>
+
+  <script>
+    window.onscroll = function() {
+      var header = document.querySelector('header');
+      if (window.scrollY > 10) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    };
+  </script>
+</body>
+</html>
