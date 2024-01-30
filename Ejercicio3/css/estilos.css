@@ -1,0 +1,97 @@
+.cabecera
+{
+    display: flex;
+
+}
+.primero
+{
+    height: 100px;
+    width: 300vh;
+    border: gray solid 2px;
+
+}
+.segundo
+{
+    height: 100px;
+    width: 300vh;
+    border: gray solid 2px;
+ 
+}
+.tercero
+{
+    height: 100px;
+    width: 300vh;
+    border: gray solid 2px;
+}
+.menu
+{
+    
+    width: 400px;
+    height: 10vw;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: right;
+
+}
+.uno
+{
+
+
+ height: 30px;
+ width: 100px;
+ background-color: rgb(88, 87, 87);
+
+}
+.dos
+{
+
+
+ height: 30px;
+ width: 100px;
+ background-color: rgb(88, 87, 87);
+
+}
+.tres
+{
+
+
+ height: 30px;
+ width: 100px;
+ background-color: rgb(88, 87, 87);
+
+}
+.cuatro
+{
+
+
+ height: 30px;
+ width: 100px;
+ background-color: rgb(88, 87, 87);
+
+}
+
+
+.cuerpo
+{
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+
+}
+.ButtonSucess
+{
+    border-radius: 50vw;
+    background-color: green;
+    width: 80px;
+    height: 50px;
+}
+.pie
+{
+    height: 10vw;
+    width: 98vw;
+    border: gray solid 2px;
+    /*display: flex;
+    flex-wrap: wrap;*/
+
+}
