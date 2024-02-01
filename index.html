@@ -1,62 +1,58 @@
-<!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: url('tu-imagen-de-fondo.jpg') center/cover no-repeat fixed;
-      height: 150vh; /* Ajusta la altura para simular el scroll */
-    }
-
-    header {
-      background-color: rgba(255, 255, 255, 0.8); /* Fondo del encabezado con opacidad */
-      padding: 20px;
-      position: fixed;
-      width: 100%;
-      transition: background-color 0.3s ease-in-out;
-      z-index: 1000;
-    }
-
-    header.scrolled {
-      background-color: rgba(255, 255, 255, 1); /* Fondo del encabezado sin opacidad al hacer scroll */
-    }
-
-    h1 {
-      margin: 0;
-      color: #333;
-    }
-
-    /* Estilos adicionales para el contenido de la página */
-    .content {
-      padding: 40px;
-      color: #fff;
-      text-align: center;
-      font-size: 24px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasta Calda</title>
+    <link href="styles/cssindex.css" rel="stylesheet" type="text/css" media="all"> 
 </head>
-<body>
-  <header>
-    <h1>Nombre de tu sitio</h1>
-  </header>
+<body class="fondo">
+    <header class="encabezado">
+        <h1 class="nombre">PASTA CALDA</h1>
+        <h3 class="subnombre">RISTORANTE ITALIANO</h3>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="Carta.html">Carta</a>
+            <a href="pagina2.html">Reserva</a>
+            <a href="pagina3.html">Conocenos</a>
+            <a href="pagina4.html">Ubicacion</a>
+        </nav>
+    </header>
+    <div class="fondoseccion">
+        <div class="texto1">
+            <p>Aqui tienes nuestra <br>CARTA</p>
+            <a href="carta.html" class="boton-carta">Ver Carta</a>
+        </div>
+        <div class="img1">
 
-  <div class="content">
-    <!-- Contenido de tu página -->
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
-  </div>
+        </div>
+    </div>
+    <div class="fondoseccion2">
+        <div class="img2">
+            
+        </div>
+        <div class="texto2">
+            <p>¿Quieres hacer una reserva?<br>Pulse en el boton</p>
+            <a href="reserva.html" class="boton-carta">Reserva Aqui</a>
+        </div>
+    </div>
+    <div class="fondoseccion">
+        <div class="texto1">
+            <p>Aqui tienes nuestra <br>CARTA</p>
+            <a href="carta.html" class="boton-carta">Ver Carta</a>
+        </div>
+        <div class="img1">
 
-  <script>
-    window.onscroll = function() {
-      var header = document.querySelector('header');
-      if (window.scrollY > 10) {
-        header.classList.add('scrolled');
-      } else {
-        header.classList.remove('scrolled');
-      }
-    };
-  </script>
+        </div>
+    </div>
+</div>
+<div class="fondoseccion3">
+    <div class="img3">
+        
+    </div>
+    <div class="texto3">
+        <p>¿Quieres hacer una reserva?<br>Pulse en el boton</p>
+        <a href="reserva.html" class="boton-carta">Reserva Aqui</a>
+    </div>
+</div>
 </body>
 </html>
