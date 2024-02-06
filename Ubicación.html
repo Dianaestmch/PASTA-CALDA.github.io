@@ -1,1 +1,19 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa estático con HTML y CSS</title>
+    <style>
+        .mapa {
+    width: 600px; /* Ancho del mapa */
+    height: 400px; /* Alto del mapa */
+}
+    </style>
+</head>
+<body>
+    <div class="mapa">
+        <img src="https://maps.googleapis.com/maps/api/staticmap?center=40.7128,-74.0060&zoom=12&size=600x400&maptype=roadmap&markers=color:red%7Clabel:M%7C40.7128,-74.0060&key=TU_CLAVE_DE_API" alt="Mapa">
+    </div>
+</body>
+</html>
