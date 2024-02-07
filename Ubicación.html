@@ -4,16 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mapa estático con HTML y CSS</title>
-    <style>
-        .mapa {
-    width: 600px; /* Ancho del mapa */
-    height: 400px; /* Alto del mapa */
-}
-    </style>
+    <link href="styles/cssubicacion.css" rel="stylesheet" type="text/css" media="all"> 
+   
 </head>
-<body>
+<body class="fondo">
+    <header class="encabezado">
+        <h1 class="nombre">PASTA CALDA</h1>
+        <h3 class="subnombre">RISTORANTE ITALIANO</h3>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="Menu.html">Menu</a>
+            <a href="Reservas.html">Reserva</a>
+            <a href="Galeria.html">Conocenos</a>
+            <a href="Ubicación.html">Ubicacion</a>
+        </nav>
+    </header>
+    <div class="horario"></div>
     <div class="mapa">
-        <img src="https://maps.googleapis.com/maps/api/staticmap?center=40.7128,-74.0060&zoom=12&size=600x400&maptype=roadmap&markers=color:red%7Clabel:M%7C40.7128,-74.0060&key=TU_CLAVE_DE_API" alt="Mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3129.306274591024!2d-0.48573022451388564!3d38.34189267184796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6237b6aac8b627%3A0x4c3b5003440a042f!2sEuropa!5e0!3m2!1ses!2ses!4v1707249228179!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 </body>
 </html>
