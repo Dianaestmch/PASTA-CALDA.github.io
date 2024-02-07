@@ -30,7 +30,8 @@
 }
 
 
-nav {
+nav 
+{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -39,7 +40,8 @@ nav {
     transition: background-color 0.3s;
 }
 
-nav a {
+nav a 
+{
     color: #fff;
     text-decoration: none;
     padding: 10px 15px;
@@ -48,82 +50,76 @@ nav a {
     transition: background-color 0.3s;
 }
 
-nav a:hover {
+nav a:hover 
+{
     background-color: #222;
     text-decoration: underline;
 }
 
-body {
+body 
+{
     text-align: center;
     color: white;
+    margin: 0;
 
 }
 
 .entrante
 {
     background-image: url("../img/fondo2.jpg");
-    height: 370px;
-    width: 800px;
-    margin: auto;
-    z-index: 20;
+    height: 400px;
+    width: 500px;
+    margin: left;
+
+}
+.principal
+{
+    background-image: url("../img/fondo2.jpg");
+    height: 840px;
+    width: 400px;
+    margin: left;
+}
+
+.postre
+{
+    background-image: url("../img/fondo2.jpg");
+    height: 480px;
+    width: 400px;
+    margin: left;
+}
+.precio{
+    background-image: url("../img/fondo2.jpg");
+    height: 400px;
+    width: 400px;
+    margin: left;
+    text-size-adjust:  100px;
+}
+.nombre
+{
+    font-style: normal;
+    font-size: medium;
 }
 h2
 {
     font-style: italic;
 }
 
-
-
-.entrante .ensalada1
+.nombre img
 {
-    font-family: 'Courier New';
-
     position: absolute;
     z-index: 1;
-
+    display: none;
 }
-.entrante .nombre:hover + .ensalada1,
-.entrante .ensalada1:hover {
+.nombre:hover img
+{
     display: block;
-   
 }
-.principal
+.nombre:hover img
 {
-    background-image: url("../img/fondo2.jpg");
-    height: 370px;
-    width: 800px;
+    position: relative;
+    z-index: 2;
     margin: auto;
 }
 
-.plato1 {
-   
-}
 
-.plato2 {
-    
-}
 
-.plato3 {
-  
-}
-
-.plato4 {
-    
-}
-.postre
-{
-    background-image: url("../img/fondo2.jpg");
-    height: 370px;
-    width: 800px;
-    margin: auto;
-    z-index: 20;
-}
-.postre1 
-{
-   
-}
-
-.postre1 
-{
-
-}
