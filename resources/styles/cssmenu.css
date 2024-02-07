@@ -67,7 +67,7 @@ body
 .entrante
 {
     background-image: url("../img/fondo2.jpg");
-    height: 400px;
+    height: 340px;
     width: 500px;
     margin: left;
 
@@ -75,8 +75,8 @@ body
 .principal
 {
     background-image: url("../img/fondo2.jpg");
-    height: 840px;
-    width: 400px;
+    height: 480px;
+    width: 500px;
     margin: left;
 }
 
@@ -84,20 +84,20 @@ body
 {
     background-image: url("../img/fondo2.jpg");
     height: 480px;
-    width: 400px;
-    margin: left;
+    width: 500px;
+    text-align: center;
+    
 }
 .precio{
-    background-image: url("../img/fondo2.jpg");
-    height: 400px;
-    width: 400px;
-    margin: left;
-    text-size-adjust:  100px;
+    margin: auto;
+    white-space: pre-line;
 }
+
 .nombre
 {
     font-style: normal;
     font-size: medium;
+    
 }
 h2
 {
