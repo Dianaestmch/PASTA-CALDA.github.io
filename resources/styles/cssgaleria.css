@@ -1,0 +1,69 @@
+.encabezado 
+{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: #fff;
+    transition: background-color 0.3s; 
+}
+.fondo
+{
+    background-image: url("../img/venecia.jpg");
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+nav 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+nav a 
+{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover 
+{
+    background-color: #222;
+    text-decoration: underline;
+}
+.fondo
+{
+    background-image: url("../img/venecia.jpg");
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}
+.gallery {
+    margin: 50px auto;
+    width: 80%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 0 0 30%; /* Ajusta el ancho de las columnas según sea necesario */
+    margin-bottom: 20px;
+}
+
+.column img {
+    width: 100%;
+    height: 200px; /* Establece la altura deseada */
+    object-fit: cover; /* Para mantener la relación de aspecto */
+}
