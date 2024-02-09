@@ -157,3 +157,9 @@ nav a:hover {
     background-color: #222;
     text-decoration: underline;
 }
+.introduccion
+{
+    color: white;
+    background-image: url(../img/fondo2.jpg);
+    text-align: center;
+}
