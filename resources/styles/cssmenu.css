@@ -61,23 +61,30 @@ body
     text-align: center;
     color: white;
     margin: 0;
+    justify-content: center;
 
 }
-
+ 
 .entrante
 {
     background-image: url("../img/fondo2.jpg");
     height: 340px;
     width: 500px;
-    margin: left;
-
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    left: 400px;
+    
 }
 .principal
 {
     background-image: url("../img/fondo2.jpg");
     height: 480px;
     width: 500px;
-    margin: left;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    left: 400px;
 }
 
 .postre
@@ -85,12 +92,16 @@ body
     background-image: url("../img/fondo2.jpg");
     height: 480px;
     width: 500px;
-    text-align: center;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    left: 400px;
     
 }
 .precio{
     margin: auto;
     white-space: pre-line;
+    align-content: center;
 }
 
 .nombre
