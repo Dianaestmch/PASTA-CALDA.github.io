@@ -4,7 +4,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px;
+    padding-top: 20px;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5); 
     color: #fff;
@@ -41,7 +41,7 @@ body{
 {
     width: 530px;
     height: 250px;
-    background-image: url("../img/carta.jpg");
+    background-image: url("../img/Bruschetta.jpg");
     background-size: cover;
     display: inline-flexbox;
 }
@@ -62,7 +62,7 @@ body{
 {
     width: 530px;
     height: 250px;
-    background-image: url("../img/reserva.jpg");
+    background-image: url("../img/carbonara.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display: inline-flexbox;
@@ -71,6 +71,24 @@ body{
 {
     width: 800px;
     height: 800px;
+}
+.img3
+{
+    width: 530px;
+    height: 250px;
+    background-image: url("../img/Tiramisu.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-flexbox;
+}
+.img4
+{
+    width: 530px;
+    height: 250px;
+    background-image: url("../img/caprese.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-flexbox;
 }
 .fondoseccion
 {
