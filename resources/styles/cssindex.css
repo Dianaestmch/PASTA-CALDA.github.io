@@ -162,4 +162,8 @@ nav a:hover {
     color: white;
     background-image: url(../img/fondo2.jpg);
     text-align: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
 }
